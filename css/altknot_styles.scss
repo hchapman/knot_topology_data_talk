@@ -1,0 +1,52 @@
+//\definecolor{tangle}{RGB}{228, 26, 28}
+//\definecolor{altlink}{RGB}{55,126,184}
+//\definecolor{linkgrowth}{RGB}{77,175,74}
+//\definecolor{altknot}{RGB}{152,78,163}
+//%%
+//\definecolor{tanglegen}{RGB}{217,95,2}
+//\definecolor{algtangle}{RGB}{27,158,119}
+//\definecolor{bpotangle}{RGB}{117,112,179}
+//\definecolor{hortangle}{RGB}{166,118,29}
+
+$dark-colors: (rgb(27,158,119),
+               rgb(217,95,2),
+               rgb(117,112,179),
+               rgb(231,41,138),
+               rgb(102,166,30),
+               rgb(230,171,2),
+               rgb(166,118,29),
+               rgb(102,102,102));
+
+$set1-colors: (rgb(228,26,28),
+               rgb(55,126,184),
+               rgb(77,175,74),
+               rgb(152,78,163),
+               rgb(255,127,0),
+               rgb(255,255,51),
+               rgb(166,86,40),
+               rgb(247,129,191),
+               rgb(153,153,153));
+
+.altknot {
+    color: nth($set1-colors, 4);
+}
+
+.altlink {
+    color: nth($set1-colors, 2);
+}
+
+.tangle {
+    color: nth($set1-colors, 1);
+}
+
+.bpotangle {
+    color: nth($dark-colors, 3);
+}
+
+.algtangle {
+    color: nth($dark-colors, 1);
+}
+
+.hortangle {
+    color: nth($dark-colors, 7);
+}
